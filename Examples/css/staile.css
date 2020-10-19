@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #2d2d22;;
+}
+.back{
+    background: white;
+    width: 700px;
+    height: 500px;
+    border: 2px black solid;
+    margin: 200px auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#cube1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    bottom:0px;
+    border-radius: 10px 10px 10px 10px ;
+    margin-left: 20px;
+    animation: cube1 2s infinite;
+}
+.animate{animation: jump 3s ;
+}
+#cube3{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    bottom:0px;
+    left: 515px;
+    border-radius: 10px 10px 10px 10px ;
+    margin-left: 20px;
+    animation: cube3 2s infinite;
+}
+#cube4{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    bottom:0px;
+    left: 885px;
+    border-radius: 10px 10px 10px 10px ;
+    margin-left: 20px;
+    animation: cube4 1s infinite;
+} 
+
+#cube5{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    bottom:0px;
+    left: 700px;
+    border-radius: 10px 10px 10px 10px ;
+    margin-left: 20px;
+    animation: cube5 1s infinite;
+}
+
+@keyframes cube5{
+    /* 0%{top: 250px;}
+    20%{bottom: 0px;}
+    40%{top: 400px;}
+    60%{top: 220px}
+    100%{bottom:0px;} */
+    0%{bottom: 0px;}
+    100%{top: 220px;}
+
+}
+@keyframes cube4{
+    /* 0%{bottom: 0px;}
+    20%{bottom: 0px;}
+    40%{top: 400px;}
+    60%{top: 220px}
+    100%{bottom:0px; } */
+    0%{top: 220px;}
+    100%{bottom: 0px;}
+}
+    
+
+
+
+@keyframes cube3{
+   
+0%{top: 220px;}
+100%{bottom: 0px;}
+}
+
+@keyframes cube1{
+    /* 0%{top: 220px;}
+    20%{top: 220px;}
+    40%{top: 400px;}
+    60%{top: 400px;}
+    80%{top: 400px;}
+    100%{bottom: 0px;} */
+    0%{bottom: 0px;}
+    100%{top: 220px;}
+}
+
+#cube2{
+    width: 50px;
+    height: 50px;
+    background: blue;
+    position: absolute;
+    bottom: 0px;
+    left: 950px;
+    border-radius: 5px 5px 5px 5px ;
+   }
+.anime{
+    animation: cube2 1s;
+}
+
+
+@keyframes cube2{
+    0% {left: 970px;}
+    100% {left: 325px;}
+}
